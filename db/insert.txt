@@ -1,0 +1,76 @@
+
+---- género
+
+INSERT INTO `hcd_devel`.`genero` (`idGenero`, `generoDescripcion`) VALUES ('M', 'Masculino');
+SELECT `idGenero`, `generoDescripcion` FROM `hcd_devel`.`genero` WHERE  `idGenero`='M';
+INSERT INTO `hcd_devel`.`genero` (`idGenero`, `generoDescripcion`) VALUES ('F', 'Femenino');
+SELECT `idGenero`, `generoDescripcion` FROM `hcd_devel`.`genero` WHERE  `idGenero`='F';
+INSERT INTO `hcd_devel`.`genero` (`idGenero`, `generoDescripcion`) VALUES ('I', 'Indefinido');
+SELECT `idGenero`, `generoDescripcion` FROM `hcd_devel`.`genero` WHERE  `idGenero`='I';
+
+
+---- clase social
+
+INSERT INTO `hcd_devel`.`clasesocial` (`idClaseSocial`, `claseSocial`) VALUES ('A', 'A 1,9%');
+SELECT `idClaseSocial`, `claseSocial` FROM `hcd_devel`.`clasesocial` WHERE  `idClaseSocial`='A';
+INSERT INTO `hcd_devel`.`clasesocial` (`idClaseSocial`, `claseSocial`) VALUES ('B', 'B 11,2%');
+SELECT `idClaseSocial`, `claseSocial` FROM `hcd_devel`.`clasesocial` WHERE  `idClaseSocial`='B';
+INSERT INTO `hcd_devel`.`clasesocial` (`idClaseSocial`, `claseSocial`) VALUES ('C1', 'C+ 22,8%');
+SELECT `idClaseSocial`, `claseSocial` FROM `hcd_devel`.`clasesocial` WHERE  `idClaseSocial`='C1';
+INSERT INTO `hcd_devel`.`clasesocial` (`idClaseSocial`, `claseSocial`) VALUES ('C2', 'C- 49,3%');
+SELECT `idClaseSocial`, `claseSocial` FROM `hcd_devel`.`clasesocial` WHERE  `idClaseSocial`='C2';
+INSERT INTO `hcd_devel`.`clasesocial` (`idClaseSocial`, `claseSocial`) VALUES ('D', 'D 14,9%');
+SELECT `idClaseSocial`, `claseSocial` FROM `hcd_devel`.`clasesocial` WHERE  `idClaseSocial`='D';
+
+
+--- etnia
+
+
+INSERT INTO `hcd_devel`.`etnia` (`idEtnia`, `etniaNombre`, `etniaVigencia`) VALUES ('1', 'Indígena', '1');
+SELECT `idEtnia`, `etniaNombre`, `etniaVigencia` FROM `hcd_devel`.`etnia` WHERE  `idEtnia`=1;
+INSERT INTO `hcd_devel`.`etnia` (`idEtnia`, `etniaNombre`, `etniaVigencia`) VALUES ('2', 'Afroecuatoriana', '1');
+SELECT `idEtnia`, `etniaNombre`, `etniaVigencia` FROM `hcd_devel`.`etnia` WHERE  `idEtnia`=2;
+INSERT INTO `hcd_devel`.`etnia` (`idEtnia`, `etniaNombre`, `etniaVigencia`) VALUES ('3', 'Montubia', '1');
+SELECT `idEtnia`, `etniaNombre`, `etniaVigencia` FROM `hcd_devel`.`etnia` WHERE  `idEtnia`=3;
+INSERT INTO `hcd_devel`.`etnia` (`idEtnia`, `etniaNombre`, `etniaVigencia`) VALUES ('4', 'Mestiza', '1');
+SELECT `idEtnia`, `etniaNombre`, `etniaVigencia` FROM `hcd_devel`.`etnia` WHERE  `idEtnia`=4;
+INSERT INTO `hcd_devel`.`etnia` (`idEtnia`, `etniaNombre`, `etniaVigencia`) VALUES ('5', 'Blanca', '1');
+SELECT `idEtnia`, `etniaNombre`, `etniaVigencia` FROM `hcd_devel`.`etnia` WHERE  `idEtnia`=5;
+INSERT INTO `hcd_devel`.`etnia` (`idEtnia`, `etniaNombre`, `etniaVigencia`) VALUES ('6', 'Otra', '1');
+SELECT `idEtnia`, `etniaNombre`, `etniaVigencia` FROM `hcd_devel`.`etnia` WHERE  `idEtnia`=6;
+
+--- instrucción
+
+
+INSERT INTO `hcd_devel`.`instruccion` (`idInstruccion`, `instruccDescripcion`) VALUES ('NI', 'Ninguno');
+SELECT `idInstruccion`, `instruccDescripcion` FROM `hcd_devel`.`instruccion` WHERE  `idInstruccion`='NI';
+INSERT INTO `hcd_devel`.`instruccion` (`idInstruccion`, `instruccDescripcion`) VALUES ('PE', 'Preescolar');
+SELECT `idInstruccion`, `instruccDescripcion` FROM `hcd_devel`.`instruccion` WHERE  `idInstruccion`='PE';
+INSERT INTO `hcd_devel`.`instruccion` (`idInstruccion`, `instruccDescripcion`) VALUES ('EB', 'Educación Básica');
+SELECT `idInstruccion`, `instruccDescripcion` FROM `hcd_devel`.`instruccion` WHERE  `idInstruccion`='EB';
+INSERT INTO `hcd_devel`.`instruccion` (`idInstruccion`, `instruccDescripcion`) VALUES ('EM', 'Edicación Media / Bachillerato');
+SELECT `idInstruccion`, `instruccDescripcion` FROM `hcd_devel`.`instruccion` WHERE  `idInstruccion`='EM';
+INSERT INTO `hcd_devel`.`instruccion` (`idInstruccion`, `instruccDescripcion`) VALUES ('SU', 'Superior');
+SELECT `idInstruccion`, `instruccDescripcion` FROM `hcd_devel`.`instruccion` WHERE  `idInstruccion`='SU';
+INSERT INTO `hcd_devel`.`instruccion` (`idInstruccion`, `instruccDescripcion`) VALUES ('CN', 'Cuarto Nivel');
+SELECT `idInstruccion`, `instruccDescripcion` FROM `hcd_devel`.`instruccion` WHERE  `idInstruccion`='CN';
+INSERT INTO `hcd_devel`.`instruccion` (`idInstruccion`, `instruccDescripcion`) VALUES ('IG', 'Ignora');
+SELECT `idInstruccion`, `instruccDescripcion` FROM `hcd_devel`.`instruccion` WHERE  `idInstruccion`='IG';
+
+---- estado civil
+
+INSERT INTO `hcd_devel`.`estadocivil` (`idEstadoCivil`, `estadoCivil`) VALUES ('CA', 'Casado/a');
+SELECT `idEstadoCivil`, `estadoCivil` FROM `hcd_devel`.`estadocivil` WHERE  `idEstadoCivil`='CA';
+INSERT INTO `hcd_devel`.`estadocivil` (`idEstadoCivil`, `estadoCivil`) VALUES ('UN', 'Unido/a');
+SELECT `idEstadoCivil`, `estadoCivil` FROM `hcd_devel`.`estadocivil` WHERE  `idEstadoCivil`='UN';
+INSERT INTO `hcd_devel`.`estadocivil` (`idEstadoCivil`, `estadoCivil`) VALUES ('SE', 'Separado/a');
+SELECT `idEstadoCivil`, `estadoCivil` FROM `hcd_devel`.`estadocivil` WHERE  `idEstadoCivil`='SE';
+INSERT INTO `hcd_devel`.`estadocivil` (`idEstadoCivil`, `estadoCivil`) VALUES ('DI', 'Divorciado/a');
+SELECT `idEstadoCivil`, `estadoCivil` FROM `hcd_devel`.`estadocivil` WHERE  `idEstadoCivil`='DI';
+INSERT INTO `hcd_devel`.`estadocivil` (`idEstadoCivil`, `estadoCivil`) VALUES ('VI', 'Viudo/a');
+SELECT `idEstadoCivil`, `estadoCivil` FROM `hcd_devel`.`estadocivil` WHERE  `idEstadoCivil`='VI';
+INSERT INTO `hcd_devel`.`estadocivil` (`idEstadoCivil`, `estadoCivil`) VALUES ('SO', 'Soltero/a');
+SELECT `idEstadoCivil`, `estadoCivil` FROM `hcd_devel`.`estadocivil` WHERE  `idEstadoCivil`='SO';
+
+
+
