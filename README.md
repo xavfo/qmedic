@@ -1,2 +1,2 @@
-# qmedic en ScriptCase
+# qmedic en PHP 3
 Software médico para profesionales privados
